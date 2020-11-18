@@ -1,13 +1,13 @@
-with open("data") as f:
+with open("d1_data") as f:
     puzzle = f.read()
 
-open = 0
+opens = 0
 closed = 0
 
 for symbol in puzzle:
     if symbol == "(":
-        open += 1
+        opens += 1
     else:
         closed += 1
 
-print(open - closed)
+print("Result:", opens - closed)

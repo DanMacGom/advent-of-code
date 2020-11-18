@@ -1,12 +1,12 @@
 # Part 1
-with open("data") as f:
-    data = f.read()
+with open("d2_data") as f:
+    puzzle = f.read()
 
-data = data.split()
+puzzle = puzzle.split()
 square_feet_paper = 0
 square_feet_ribbon = 0
 
-for box in data:
+for box in puzzle:
     dims = list(map(int, box.split("x")))
     
     combinations = [dims[0] * dims[1], dims[1] * dims[2], dims[0] * dims[2]]
