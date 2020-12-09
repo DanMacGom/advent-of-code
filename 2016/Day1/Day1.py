@@ -1,3 +1,4 @@
+# https://github.com/TessFerrandez/AdventOfCode-Python/blob/develop/2016/day1.py
 with open("d1_data") as f:
     puzzle = f.read().split(", ")
 
