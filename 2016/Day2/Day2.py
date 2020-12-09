@@ -39,5 +39,8 @@ class Password:
         return self.password
 
 
-password = Password("rhombus")
-print(password.decrypt_numpad(puzzle))
+password1 = Password("numpad")
+password2 = Password("rhombus")
+
+print("Part 1| First password:", password1.decrypt_numpad(puzzle))
+print("Part 2| Second password:", password2.decrypt_numpad(puzzle))

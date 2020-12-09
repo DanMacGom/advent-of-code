@@ -54,7 +54,8 @@ class SantaSleigh:
     def visited_twice(self):
         for position in self.visited:
             if self.visited.count(position) > 1:
-                print("Result part 2:", self.total_distance(position[0], position[1]))
+                print("Part 2| Blocks away first location visited twice:",
+                      self.total_distance(position[0], position[1]))
                 return
 
 
@@ -65,5 +66,5 @@ for direc in puzzle:
     sleigh.change_direction(direc[0])
     sleigh.append_distance_position(int(direc[1:]))
 
-print("Result part 1:", sleigh.total_distance())
+print("Part 1| Blocks away:", sleigh.total_distance())
 sleigh.visited_twice()

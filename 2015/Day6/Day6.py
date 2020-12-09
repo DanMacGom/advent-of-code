@@ -33,7 +33,7 @@ lights = 0
 for j in light_grid:
     lights += sum(a for a in j if a > 0)
 
-print("Result part 1:", lights)
+print("Part 1| Lights lit:", lights)
 
 # Part 2
 light_grid = [[0 for i in range(1000)] for j in range(1000)]
@@ -65,4 +65,4 @@ lights = 0
 for j in light_grid:
     lights += sum(a for a in j)
 
-print("Result part 2:", lights)
+print("Part 2| Total brightness:", lights)

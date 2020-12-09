@@ -10,7 +10,7 @@ for symbol in puzzle:
     else:
         closed += 1
 
-print("Result part 1:", opens - closed)
+print("Part 1| Floor number:", opens - closed)
 
 opens = 0
 closed = 0
@@ -23,7 +23,7 @@ for symbol in puzzle:
         closed += 1
 
     if opens - closed < 0:
-        print("Result part 2:", count)
+        print("Part 2| Position of the character:", count)
         break
 
     count += 1

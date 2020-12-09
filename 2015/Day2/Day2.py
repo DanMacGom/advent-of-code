@@ -17,7 +17,5 @@ for box in puzzle:
     square_feet_paper += 2 * sum(combinations) + min(combinations)
     square_feet_ribbon += min(face_perimeters) + volume
 
-print("Part 1 result:", square_feet_paper)
-
-# Part 2
-print("Part 2 result:", square_feet_ribbon)
+print("Part 1| Square feet of wrapping paper:", square_feet_paper)
+print("Part 2| Feet of ribbon:", square_feet_ribbon)

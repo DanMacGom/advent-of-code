@@ -18,7 +18,7 @@ for symbol in puzzle:
     if actual_position not in history_of_positions:
         history_of_positions.append(actual_position.copy())
 
-print("Part 1 result:", len(history_of_positions))
+print("Part 1| Houses that receive at least one present from Santa:", len(history_of_positions))
 
 # Part 2
 santa_position = [0, 0]
@@ -53,4 +53,4 @@ for i, symbol in enumerate(puzzle):
         if robot_position not in history_of_positions:
             history_of_positions.append(robot_position.copy())
 
-print("Part 2 result:", len(history_of_positions))
+print("Part 2| Houses that receive at least one present from Santa and Robo-Santa:", len(history_of_positions))

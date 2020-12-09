@@ -13,9 +13,9 @@ for word in puzzle:
             strings_part1 += 1
 
     # Part 2
-    if re.search():
-        pass
+    # if re.search():
+    #     pass
 
-print("Result part 1:", strings_part1)
-print("Result part 2:", strings_part2)
+print("Part 1| Number of nice strings:", strings_part1)
+# print("Part 2| :", strings_part2)
 
